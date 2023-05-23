@@ -1,0 +1,73 @@
+.main-bar{
+    width: 70%;
+}
+
+.side-bar{
+        width: 30%;
+ }
+ h1{
+    text-align: center;
+    color: aliceblue;
+    margin-left: 500px;}
+    .body {
+        height: 100%;
+        width: 30%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: blueviolet;
+        overflow-x: hidden;
+        padding-top: 20px;
+      }
+      
+      .body a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+        display: block;
+      }
+      
+      .body a:hover {
+        color: #f1f1f1;
+      }
+      body{
+        background-color: goldenrod;
+      }
+      .body a {
+        position: absolute;
+        left: -80px;
+        transition: 0.3s;
+        padding: 15px;
+        width: 100px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        border-radius: 0 5px 5px 0;
+      }
+      
+      .body a:hover {
+        left: 0;
+      }
+      
+      #about {
+        top: 20px;
+        background-color: #04AA6D;
+      }
+      
+      #services {
+        top: 80px;
+        background-color: black;
+      }
+      
+      #clients {
+        top: 140px;
+        background-color: #f44336;
+      }
+      
+      #contact {
+        top: 200px;
+        background-color:chartreuse;
+      }
+       
